@@ -1,0 +1,166 @@
+@import 'utilities.css';
+:root {
+    --primary: deepskyblue;
+    --dark: black;
+    --pure: #ffffff;
+    --ternary: #898989;
+    --light: #f2f2f2;
+    --secondary: #070606;
+
+}
+
+body{
+    font-family: 'poppins', sans-serif;
+    background: black;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+header {
+    background: var(--dark); 
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./img/4k\ Hu\ Tao\ promo\ 6.png);
+    background-size: 1000px;
+    color: var(--pure);   
+}
+
+nav div div img {
+    width: 100px;
+    height: 100px;
+}
+
+div div img.second {
+    opacity: inherit;
+}
+   
+div.container {
+    max-width: 1152px;
+    padding:0 15px;
+    margin:0 auto;
+
+}
+
+header nav .left a{
+    color: var(--pure);
+    text-decoration: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+
+header nav .left a:hover {
+    color: var(--primary);
+}
+
+header nav{
+    padding:2rem 0;
+}
+
+header nav .branding {
+    margin-right: 3rem;
+}
+
+.hero {
+    padding: 3rem 0;
+}
+
+.hero .left img {
+    width: 400px;
+}
+
+.hero .right {
+    color: var(--pure);
+}
+
+.hero .right h6{
+    font-size: 1.6rem;
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+}
+
+.hero .right h1 {
+    font-size: 4rem;
+    font-weight: 100;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+
+.hero .right h1 span {
+    color: var(--primary);
+}
+
+.hero .right p {
+    line-height: 1.9;
+    margin-bottom: 2rem;
+}
+
+.hero .right {
+    margin-top: -7rem;
+}
+
+div img.second {
+    width: 800px;
+    height: 500px;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+
+h1.welcome {
+    color: azure;
+    font-weight: 100;
+    padding-left: 28rem;
+}
+
+div.intro h1 {
+    color: white;
+    font-weight: 100;
+    padding-left: 19rem;
+    padding-bottom: 2rem;
+    
+}
+
+div.intro h2 {
+    color: white;
+    padding-left: 19rem;
+    padding-bottom: 2rem;
+    text-align: left;
+    padding-right: 18rem;
+    font-weight: 50;
+    font-size: 20px;
+}
+
+section.about {
+    background: black;
+}
+
+div.prologue h1 {
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    text-align: center;
+
+}
+
+div.about-pict img {
+    height: 400px;
+    width: 850px;
+    padding-left: 19rem;
+    
+}
+
+div.hello1 h1{
+    color: white;
+    text-align: center;
+    padding-bottom: 3rem;
+    
+}
